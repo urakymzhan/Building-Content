@@ -181,10 +181,10 @@ Now edit `PLACESSpace.js`.
 function PLACESSpace() {
   return (
     <div>
-      <img src={`${process.env.PUBLIC_URL}/images/50-california-st.jpg`}     
+      <img src={`${process.env.PUBLIC_URL}/images/buckingham-fountain.png`}     
         width="300"
         height="300"
-        alt="50 Califonia St."
+        alt="Buckingham Fountain is a Chicago Landmark"
       />
       <h1>Name...</h1>
       <div>Address...</div>
@@ -220,7 +220,7 @@ When using an expression in JSX you must wrap it in `{}`.
 
 `<img src={} />`
 
-We want to make a string that ends with 'images/50-california-st.jpg':
+We want to make a string that ends with 'images/buckingham-fountain.png':
 
 ```html
 `<img src={`images/buckingham-fountain.png`} />`
